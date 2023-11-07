@@ -7,7 +7,7 @@
 .container{
     background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(21,92,197,1) 85%);
-    height: 60px;
+    height: 70px;
     display: flex;
 
 }
