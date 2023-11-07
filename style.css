@@ -1,18 +1,20 @@
 *{
     margin: 0;
+   
 }
 
+
 .container{
-    background: rgb(249,249,249);
-    background: linear-gradient(90deg, rgba(249,249,249,0.8288048495765494) 8%, rgba(0,0,0,1) 100%);
-    height: 70px;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(21,92,197,1) 85%);
+    height: 60px;
     display: flex;
 
 }
 .logo{
     width: 100px;
     height: 70px;
-    background-image:url("assets/damier-de-course.jpg");
+    background-image:url("assets/F1.jpg");
     background-size:cover;
     background-position: 25%;
     
@@ -23,35 +25,65 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width:200px;
     margin-right: auto;
-    color:green;
+    color:red;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.bouton{
-    
-    width:50px;
-    background-color:#44c767;
-	border-radius:28px;
-	border:1px solid #18ab29;
+.bouton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #000000 5%, #1600ba 100%);
+	background-color:#000000;
+	border-radius:10px;
+	border:1px solid #4bc29c;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	padding:16px 31px;
+	font-size:15px;
+	font-weight:bold;
+	padding:20px 15px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
-    justify-content: right;
-  
+	text-shadow:0px -1px 0px #2b665e;
+    
+    
 }
-.bouton:hover{
-    background-color:#5cbf2a;
+
+.bouton:hover {
+	background:linear-gradient(to bottom, #1600ba 5%, #000000 100%);
+	background-color:#1600ba;
 }
-.bouton:active{
-    position:relative;
+.bouton:active {
+	position:relative;
 	top:1px;
 }
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
 
 
 .banniere{
@@ -61,7 +93,7 @@
     background-position: 25%;
     display:flex;
     justify-content:center;
-    align-items:end;
+    align-items:top;
 
 }
 .slogan{
@@ -72,7 +104,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color:blue;
+    color:#76A2E1;
 }
 .introduction{
     height: 200px;
@@ -80,11 +112,12 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     justify-content:center;
+    
 
 }
 h1{
-    text-align: center;
-}
+    text-align: center;}
+    
 
  h2{
     text-align: center;
@@ -97,12 +130,21 @@ h1{
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 60px;
+    margin-left: 80px;
     text-decoration-line: underline;
  }
+
+
+h4{
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    text-decoration-line:underline;
+
+}
 .carte-mere{
-    height: 3500px;
+    
     background-color: black;
     justify-content: center;
     
@@ -119,15 +161,24 @@ h1{
 }
 
 
-        
-
+.texte, .texte-Urus,.texte-Rimac,.texte-Bugatti {
+    color:white;
+    padding-bottom: 50px;
+    padding-right: 30px;
+}     
+.texte-porsche{
+    color:#020101;
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
 p{
-    color: white;
-    margin-left: 10px;
+   
+    margin-left: 100px;
 }
 a{
-    margin-left: 10px;
-    color:white
+    
+    color: white;
+    
 }
 .carte{
     flex-direction:row-reverse;
@@ -142,40 +193,34 @@ a{
 }
 .image{
     border-radius: 20px 0px  0px 20px ;
-    height: 500px;
+    
     width: 600px;
     
 }
 .texte {
-    
-    background-image: url(assets/logo-audi.jpg);
-    background-size: cover;
-    background-position-y:70%;
+    background-color: #8996A7;
     border-radius: 0px 20px 20px 0px;
 }
 .description{
     margin-top: 20px;
 }
-.rs6{
 
-    border-radius: 0px 20px  20px 0px ;
-}
+  
+
 .porsche{
     margin-top: 80px;
     flex-direction: row;
-    background-image: url(assets/logo-porsche.jpg);
-    background-size: cover;
-    border-radius: 0px 20px  20px 0px ;
-    background-position-x:20%;
-    background-position-y:70%;
+    background-color:#E4DBD4;
+    color:black;
+ 
+    
 }
 .Urus{
     margin-top: 80px;
     flex-direction: row;
-    background-image: url(assets/interieur-Urus.jpg);
-    background-size: cover;
-    border-radius: 0px 20px  20px 0px ;
-    background-position: 25%;
+   background-color: #485454;
+   
+  
 
     
 }
@@ -183,22 +228,68 @@ a{
 
     margin-top: 80px;
     flex-direction: row;
-    background-image: url(assets/fusée.jpg);
-    background-size: cover;
-    border-radius: 0px 20px  20px 0px ;
-    background-position-y: center;
-    background-position-x:10%;
+    background-color: #B5B2AD;
+    height: 650px;
+    
+    
 
     
 }
 .Bugatti{
     margin-top: 80px;
     flex-direction: row;
-    background-image: url(assets/Engine.jpg);
-    background-size: cover;
-    border-radius: 0px 20px  20px 0px ;
-   background-position: calc()
-
-
+    background-color: #20373E;
     
+  }
+
+
+
+  hr{
+    height: 100px;
+    background-color: black;
+    border: none;
+  }
+
+footer{
+
+   /* display: flex;  */
+    
+   /* justify-content: center; */
+    
+    position:relative;
+}
+.map{
+    
+    background-size: cover;
+    width: 100%;
+   
+
+}
+
+  .info{
+
+     border: 1px solid red;
+     height: 600px;
+     width: 400px;
+     background-color: red;
+     color: white;
+     position:absolute;
+     bottom:50px;
+     left:100px;
+     margin: 20px;
+  
+  }
+  .horaires{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .ali{
+    text-align: center;
+    margin-left: 10px;
+  }
+.titre-porsche{
+    color:black;
+}
+.titre-marge{
+    margin-top: 50px;
 }
