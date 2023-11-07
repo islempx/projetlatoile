@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+}
+
+.container{
+    background: rgb(249,249,249);
+    background: linear-gradient(90deg, rgba(249,249,249,0.8288048495765494) 8%, rgba(0,0,0,1) 100%);
+    height: 70px;
+    display: flex;
+
+}
+.logo{
+    width: 100px;
+    height: 70px;
+    background-image:url("assets/damier-de-course.jpg");
+    background-size:cover;
+    background-position: 25%;
+    
+    }
+.contenu{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width:200px;
+    margin-right: auto;
+    color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bouton{
+    
+    width:50px;
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    justify-content: right;
+  
+}
+.bouton:hover{
+    background-color:#5cbf2a;
+}
+.bouton:active{
+    position:relative;
+	top:1px;
+}
+
+
+.banniere{
+    height: 800px;
+    background-image:url("assets/ryan-spencer-c-NEiPIxpYI-unsplash.jpg");
+    background-size:cover;
+    background-position: 25%;
+    display:flex;
+    justify-content:center;
+    align-items:end;
+
+}
+.slogan{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:blue;
+}
+.introduction{
+    height: 200px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    justify-content:center;
+
+}
+h1{
+    text-align: center;
+}
+
+ h2{
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    text-decoration-line:underline;
+ }
+
+ h3{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration-line: underline;
+ }
+.carte-mere{
+    height: 3500px;
+    background-color: black;
+    justify-content: center;
+    
+    
+   
+}
+
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+        
+
+p{
+    color: white;
+    margin-left: 10px;
+}
+a{
+    margin-left: 10px;
+    color:white
+}
+.carte{
+    flex-direction:row-reverse;
+    border-radius: 20px 20px 20px 20px;
+  
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    
+
+}
+.image{
+    border-radius: 20px 0px  0px 20px ;
+    height: 500px;
+    width: 600px;
+    
+}
+.texte {
+    
+    background-image: url(assets/logo-audi.jpg);
+    background-size: cover;
+    background-position-y:70%;
+    border-radius: 0px 20px 20px 0px;
+}
+.description{
+    margin-top: 20px;
+}
+.rs6{
+
+    border-radius: 0px 20px  20px 0px ;
+}
+.porsche{
+    margin-top: 80px;
+    flex-direction: row;
+    background-image: url(assets/logo-porsche.jpg);
+    background-size: cover;
+    border-radius: 0px 20px  20px 0px ;
+    background-position-x:20%;
+    background-position-y:70%;
+}
+.Urus{
+    margin-top: 80px;
+    flex-direction: row;
+    background-image: url(assets/interieur-Urus.jpg);
+    background-size: cover;
+    border-radius: 0px 20px  20px 0px ;
+    background-position: 25%;
+
+    
+}
+.Rimac{
+
+    margin-top: 80px;
+    flex-direction: row;
+    background-image: url(assets/fusée.jpg);
+    background-size: cover;
+    border-radius: 0px 20px  20px 0px ;
+    background-position-y: center;
+    background-position-x:10%;
+
+    
+}
+.Bugatti{
+    margin-top: 80px;
+    flex-direction: row;
+    background-image: url(assets/Engine.jpg);
+    background-size: cover;
+    border-radius: 0px 20px  20px 0px ;
+   background-position: calc()
+
+
+    
+}
