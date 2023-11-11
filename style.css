@@ -5,8 +5,7 @@
 
 
 .container{
-    background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(21,92,197,1) 85%);
+    background: transparent;
     height: 70px;
     display: flex;
 
@@ -25,35 +24,30 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(21,92,197,1) 85%);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width:200px;
     margin-right: auto;
-    color:red;
+    color:white;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 .bouton {
-	box-shadow:inset 0px 1px 3px 0px #91b8b3;
-	background:linear-gradient(to bottom, #000000 5%, #1600ba 100%);
-	background-color:#000000;
+	background:transparent;
 	border-radius:10px;
-	border:1px solid #4bc29c;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
+    font-weight: bold;
 	padding:20px 15px;
 	text-decoration:none;
-	text-shadow:0px -1px 0px #2b665e;
+	
     
     
 }
 
-.bouton:hover {
-	background:linear-gradient(to bottom, #1600ba 5%, #000000 100%);
-	background-color:#1600ba;
-}
 .bouton:active {
 	position:relative;
 	top:1px;
@@ -67,24 +61,56 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(21,92,197,1) 85%);
 
 .banniere{
     height: 800px;
-    background-image:url("assets/ryan-spencer-c-NEiPIxpYI-unsplash.jpg");
-    background-size:cover;
-    background-position: 25%;
     display:flex;
     justify-content:center;
     align-items:top;
 
 }
-.slogan{
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width:400px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:#76A2E1;
-}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  h1, h2, #btnVideo {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin-top: 30vh; 
+    text-align: center;
+  }
+  .ligne{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    text-decoration: none;
+  }
+  #link{
+     color:#020101; 
+  }
+  
+  h2 { font-size: 3rem; }
+  
+  #btnVideo {
+    font-size: 1.5rem;
+    background: 0;
+    border: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
 .introduction{
     height: 200px;
     background-color: black;
@@ -94,8 +120,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(21,92,197,1) 85%);
     
 
 }
-h1{
-    text-align: center;}
+
+    
     
 
  h2{
@@ -271,4 +297,9 @@ footer{
 }
 .titre-marge{
     margin-top: 50px;
+}
+#fin{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
 }
