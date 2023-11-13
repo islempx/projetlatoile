@@ -57,6 +57,7 @@
     font-weight: bold;
 	padding:20px 15px;
 	text-decoration:none;
+    margin-right: 10px;
 	
     
     
@@ -308,6 +309,7 @@ footer{
      bottom:50px;
      left:100px;
      margin: 20px;
+     justify-content: center;
   
   }
   .horaires{
@@ -331,5 +333,18 @@ footer{
 }
 .fa-brands:hover{
     transform: scale(1,2);
-  
+    transition: 0,3s;
+    transform: translateY(-2px);
+}
+
+
+.fa-linkedin{
+margin-left: 190px;
+}
+.fa-github:hover{
+    color: black;
+    
+}
+.fa-linkedin:hover{
+   color: blue;
 }
